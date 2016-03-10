@@ -29,7 +29,7 @@
 
 # update ip-address
 :do {
-    :if (($ifip != 0.0.0.0 && $ifip != $ddnsip) || ($runcount % $interval) = 0) do={
+    :if ($ifip != 0.0.0.0 && ($ifip != $ddnsip || $runcount % $interval = 0)) do={
         :log info "dyndns: updating the ip-address at dy.fi" 
         :local str "/nic/update\?hostname=$ddnsname&myip=$ifip" 
         /tool fetch address=dy.fi host=dy.fi src-path=$str mode=http user=$ddnsuser password=$ddnspass dst-path="/dyndns.txt" 
