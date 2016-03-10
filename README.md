@@ -1,7 +1,7 @@
 # mikrotik-dyndns
 Mikrotik RB750 script for updating dynamic ip-address at dy.fi
 
-Instructions
+## Instructions
 
 1. Create a script with a name 'dyndns'
 2. Schedule it to run once per hour
