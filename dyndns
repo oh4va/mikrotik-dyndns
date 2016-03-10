@@ -9,7 +9,7 @@
 :local ifip 0.0.0.0
 :local ddnsuser "<username>" 
 :local ddnspass "<password>" 
-:local ddnsname "<domain name>" 
+:local ddnsname "<hostname>" 
 :local ddnsip 0.0.0.0
 :local runcount [/system script get dyndns run-count];
 :local interval 144;
