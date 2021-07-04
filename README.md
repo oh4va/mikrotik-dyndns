@@ -21,3 +21,5 @@ which has a long and hard-to-remember URL.
 ```
 /system scheduler add name=run-1h interval=1h on-event=dyndns
 ```
+
+**NOTE: Do NOT use character '$' in the  password, it will break the script.** 
