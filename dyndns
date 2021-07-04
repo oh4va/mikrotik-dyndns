@@ -5,7 +5,7 @@
 #
 
 # variables
-:local ifname "ether1-gateway"
+:local ifname "ether1"
 :local ifip 0.0.0.0
 :local ddnsuser "<username>"
 :local ddnspass "<password>"
