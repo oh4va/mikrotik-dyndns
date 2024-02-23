@@ -6,7 +6,7 @@ Mikrotik RB750 script for updating dynamic ip-address at dy.fi
 1. Create an account at http://dy.fi
 2. Add a new host
 
-### A brief introduction of dy.fi
+### A brief introduction to dy.fi
 
 dy.fi is a free dynamic DNS service offered exclusively for Finnish users.
 It provides you a short domain name like 'yourname.dy.fi', which can be
